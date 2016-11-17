@@ -9,7 +9,7 @@
     "url": "git://github.com/CassetteRocks/react-infinite-scroller.git"
   },
   "scripts": {
-    "build": "mkdir -p dist && babel src/InfiniteScroll.js --presets es2015,react,stage-2 --plugins add-module-exports --out-file dist/InfiniteScroll.js",
+    "build": "babel src/InfiniteScroll.js --presets es2015,react,stage-2 --plugins add-module-exports --out-file dist/InfiniteScroll.js",
     "prepublish": "npm run build"
   },
   "keywords": [
